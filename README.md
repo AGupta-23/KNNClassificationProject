@@ -9,24 +9,18 @@ This project demonstrates the implementation of the **K-Nearest Neighbors (KNN)*
 KNNClassificationProject/
 │
 ├── data/
-│ └── Iris.csv # Dataset
+│   └── Iris.csv                  # Dataset file
 │
 ├── src/
-│ ├── load_data.py # Function to load dataset
-│ ├── preprocess.py # Normalize features
-│ ├── model.py # KNN model training
-│ ├── evaluate.py # Accuracy, confusion matrix, report
-│ └── visualize.py # Accuracy vs K, decision boundaries
+│   ├── load_data.py              # Function to load dataset
+│   ├── preprocess.py             # Normalize features
+│   ├── model.py                  # KNN model training
+│   ├── evaluate.py               # Accuracy, confusion matrix, classification report
+│   └── visualize.py              # Accuracy vs K, decision boundaries
 │
-├── main.py # Main entry script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
+├── main.py                       # Main entry script
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
 
 ## 📦 Requirements
 
